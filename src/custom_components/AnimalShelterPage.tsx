@@ -18,7 +18,7 @@ function AnimalShelterPage() {
 
                 <div className="flex items-center justify-center gap-4 z-30">
                     <Button size="lg" className="text-xl px-3 lg:px-10 py-8 z-30 m-8" variant="secondary"><Link
-                        href="/shelters">Explore shelters</Link></Button>
+                        href="/">Explore shelters</Link></Button>
                 </div>
 
                 {/*    dog image for mobile screens*/}
@@ -28,7 +28,7 @@ function AnimalShelterPage() {
                 </div>
             </div>
             <div className="basis-1/2 hidden lg:block relative">
-                <Image src="/animal_Shelter.jpg" alt="dog" fill={true} objectFit="cover" className="rounded-md"/>
+                <Image src="/animal_shelter.jpg" alt="dog" fill={true} objectFit="cover" className="rounded-md"/>
             </div>
 
         </section>
