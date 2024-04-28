@@ -50,7 +50,7 @@ const authOption = {
             return token;
         },
         async session({ session, token, user } : {session : any, token : any, user : any}) {
-            // Send properties to the client, like an access_token from a provider.
+            // Send properties to the client, like an access_token from a provider
             session.user.id = await getUserId(session.user.email);
             return session;
         }
