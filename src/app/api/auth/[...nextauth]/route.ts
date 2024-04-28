@@ -1,6 +1,5 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google"
-import {NextResponse} from "next/server";
 import User from "@/models/user";
 
 async function getUserId(email : String) {
@@ -9,6 +8,7 @@ async function getUserId(email : String) {
 }
 
 const authOption = {
+    secret : process.env.NEXT_AUTH_SECRET!,
     providers : [
         GoogleProvider ({
             clientId : process.env.GOOGLE_CLIENT_ID!,
