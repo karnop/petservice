@@ -14,7 +14,8 @@ function ContactForm() {
                             Full Name
                         </label>
                         <input
-                            type="text"                            name="name"
+                            type="text"
+                            name="name"
                             id="name"
                             placeholder="Full Name"
                             className="w-full rounded-md bg-slate-300 py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
