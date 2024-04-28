@@ -16,7 +16,7 @@ function HomePage() {
                 </div>
 
             {/*    dog image for mobile screens*/}
-                <Image src="/dog.png" alt="dog" width="400" height="400" className="absolute bottom-0 right-0 opacity-70"/>
+                <Image src="/dog.png" alt="dog" width="400" height="400" className="lg:hidden absolute bottom-0 right-0 opacity-70"/>
             </div>
             <div className="basis-1/2 hidden lg:block">
                 <Image src="/dog.png" alt="dog" height="400" width="600" className="absolute right-0 bottom-0"/>
